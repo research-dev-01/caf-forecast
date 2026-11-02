@@ -1,0 +1,53 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+
+# Notebooks and checkpoints (strictly excluded)
+*.ipynb
+.ipynb_checkpoints/
+
+# Large datasets, caches, checkpoints and temporary outputs
+trace_cache/
+COMSNETS2027_SysAI_CAF/
+CMS2027_checkpoints/
+NCC2027_MultiMAWI/
+run_*/
+*.npz
+*.pt
+*.pkl
+*.zip
+*.part
+*.tmp
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
